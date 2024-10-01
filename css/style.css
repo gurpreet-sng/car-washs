@@ -324,6 +324,133 @@ a.arrow-down-btn:hover{
     bottom: 0;
     width: 450px;
 }
+
+
+/* You can remove this page div in your website */
+#page{
+    width:100%;
+    height:100%;
+    position:absolute;
+  }
+  
+  /* Our normalize css 
+  *{
+    margin:0;
+    box-sizing: border-box;
+  }*/
+  
+  /* Our wrapper */
+  .wrapper{
+    width: 740px;
+    height: 600px;
+    position: relative;
+    left:50%;
+    top:50%;
+    transform:translate3d(-50%,0%,0);
+    overflow:hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  /* Our image information */
+  .before,
+  .after {
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left:0;
+    pointer-events:none;
+    overflow: hidden;
+  }
+  
+  .content-image{
+    height:100%;
+  }
+  
+  .after{
+    width:125px;
+  }
+  
+  .scroller{
+    width: 50px;
+    height:50px;
+    position: absolute;
+    left:100px;
+    top:50%;
+    transform:translateY(-50%);
+    border-radius:50%;
+    background-color: transparent;
+    opacity:0.9;
+    pointer-events:auto;
+    cursor: pointer;
+  }
+  
+  .scroller:hover{
+    opacity:1;
+  }
+  
+  .scrolling{
+    pointer-events:none;
+    opacity:1;
+     z-index: 1;
+  }
+  
+  .scroller__thumb{
+    width:100%;
+    height:100%;
+    padding:5px;
+  }
+  
+  .scroller:before,
+  .scroller:after{
+    content:" ";
+    display: block;
+    width: 7px;
+    height: 9999px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3.5px;
+    z-index: 30;
+    transition:0.1s;
+  }
+  .scroller:before{
+    top:100%;
+  }
+  .scroller:after{
+    bottom:100%;
+  }
+  
+  /* If you want to cahnge the colors, make sure you change the fill in the svgs to match */
+  .scroller{
+    border: 5px solid #fff;
+  }
+  .scroller:before,
+  .scroller:after{
+    background: #fff;
+  }
+  .before-after-wrapper{
+    position: relative;
+  }
+  .see-what-box{
+    background-image: url("../images/carwash3-wrap-bg3.webp");
+    background-color: #ffffff;
+    border-radius: 32px 0px 0px 32px;
+  }
+  .our-strength-section .see-what-box{
+    padding: 100px 40px !important;
+  }
+  .our-strength-section .see-what-box .section-title-style h6{
+    color: #1C3AA4;
+  }
+  .our-strength-section .see-what-box .section-title-style h2{
+    color: #1C3AA4;
+    font-size: 50px;
+    line-height: 55px;
+  }
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;

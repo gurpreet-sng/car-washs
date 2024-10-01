@@ -36,6 +36,11 @@ header{
     font-weight: 700;
     width: 218px;
     padding: 15px;
+    border: 1px solid #FACE0F !important;
+}
+.btn-style:hover{
+    background-color: transparent;
+    color: #ffffff;
 }
 .banner-section-wrapper{
     background-color: #1C3AA4;
@@ -134,11 +139,190 @@ header{
 .yellow-strip h4{
     font-size: 40px;
     line-height: 40px;
-    color: #1C3AA4;
+    color: #090a11;
     display: inline-block;
     text-transform: uppercase;
     font-weight: 700;
     margin: 0px 50px;
+}
+.car-washing-points ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.car-washing-points ul li{
+    list-style: none;
+    display: inline-block;
+    color: #ffffff;
+    position: relative;
+    margin: 0px 0px 0px 155px;
+}
+.car-washing-points ul li:before{
+    content: "";
+    width: 140px;
+    height: 1px;
+    background-color: #3C60DB;
+    position: absolute;
+    right: 100px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.car-washing-points ul li span{
+    color: #FACE0F;
+}
+.car-washing-center{
+    background-color: #1c3aa4;
+}
+.section-title-style h6{
+    font-weight: 700;
+    color: #FACE0F;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.section-title-style h6 i {
+    display: inline-block;
+    line-height: 0px;
+    position: relative;
+    top: -3px;
+    margin-right: 10px;
+}
+.section-title-style h2{
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+.section-title-style ul{
+    margin: 0px 0px 50px;
+    padding: 0px;
+}
+.section-title-style ul li{
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 40px;
+    margin-left: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.car-washing-center .section-title-style{
+    background-color: #2D4CB8;
+    border-radius: 32px;
+    padding: 70px 60px;
+    margin-right: 20px;
+}
+.section-title-style .btn-style{
+    width: 140px;
+}
+.btn-group-style{
+    display: flex;
+}
+.arrow-down-btn{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-group-style .arrow-down-btn{
+    margin-left: 50px;
+}
+.arrow-down-btn{
+    display: flex;
+}
+.arrow-down-btn p{
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+a.arrow-down-btn:hover{
+    color: #FACE0F;
+}
+.car-protection{
+    background-image: url("../images/carwash3-wrap-bg1.png");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 40px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.car-protection .shield-icon{
+    margin-bottom: 60px;
+}
+.car-protection h4{
+    font-size: 50px;
+    color: #1C3AA4;
+    font-weight: 700;
+}
+.car-protection p{
+    color: #1C3AA4;
+    font-size: 20px;
+    font-weight: 700;
+}
+.carimg{
+    margin-bottom: 40px;
+}
+.our-strength-section{
+    background-color: #1c3aa4;
+}
+.section-title-style p{
+    color: #A6B7F5;
+    font-size: 16px;
+    line-height: 28px;
+}
+.counting-style{
+    display: inline-block;
+}
+.counting-style h6{
+    color: #FACE0F;
+    position: relative;
+    margin-bottom: 40px;
+}
+.counting-style h6:before{
+    content: "";
+    background-color: #FACE0F;
+    width: 88px;
+    height: 2px;
+    position: absolute;
+    right: -100px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.detail-icon h5{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.detail-icon img{
+    margin-bottom: 30px;
+}
+.detail-icon p{
+    color: #A6B7F5;
+    font-size: 16px;
+    line-height: 24px;
+}
+.detail-point.text-end .counting-style h6:before{
+    left: -100px;
+    right: 30px;
+}
+.our-strength-section .section-title-style{
+    margin-bottom: 50px;
+}
+.cargraphic-row{
+    position: relative;    
+}
+.cargraphic{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 450px;
 }
 @media only screen and (min-width: 1920px){
     .container-fluid {

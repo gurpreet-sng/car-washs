@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+header{
+    background-color: #1C3AA4;
+    border-bottom: 1px solid #2F4DB8;
+    padding-bottom: 5px;
+}
+.navbar-nav.me-auto{
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+.space-left-right{
+    padding: 0px 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 18px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+.btn-style{
+    background-color: #FACE0F;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    width: 218px;
+    padding: 15px;
+}
+.banner-section-wrapper{
+    background-color: #1C3AA4;
+    overflow: hidden;
+}
+.banner-section-wrapper h6{
+    font-weight: 700;
+    color: #FACE0F;
+    font-size: 17px;
+}
+.space-top-bottom{
+    padding: 100px 0px;
+}
+.banner-section-wrapper h6 i{
+    display: inline-block;
+    line-height: 0px;
+    position: relative;
+    top: -3px;
+    margin-right: 10px;
+}
+.banner-section-wrapper h1{
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 85px;
+}
+.banner-section-wrapper h1 span{
+    color: #FACE0F;
+}
+.banner-section-wrapper p{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.banner-section-wrapper .banner-form p{
+    font-size: 15px;
+    color: #6B6B6B;
+    margin-bottom: 20px;
+}
+.banner-form{
+    background-color: #ffffff;
+    padding: 40px 30px;
+    position: relative;
+    margin-top: 220px;
+}
+.banner-section-wrapper{
+    background-image:url("../images/transparent-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.banner-form .form-control, .banner-form .form-select{
+    background-color: #ebebeb;
+    border-radius: 0px;
+    border: 0px;
+    color: #000000;
+    height: 50px;
+    padding: 0px 20px;
+}
+.banner-form .btn{
+    background-color: #000000;
+    border-radius: 0px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    height: 50px;
+    color: #ffffff;
+}
+.banner-form:before{
+    content: "";
+    position: absolute;
+    width: 888px;
+    height: 514px;
+    background: url("../images/Banner-image.png");
+    left: -888px;
+    bottom: -50px;
+}
+.banner-content-wrapper{
+    z-index: 50;
+    position: relative;
+}
+.banner-form-wrapper{
+    z-index: 20;
+    position: relative;
+}
+.space-top-120{
+    padding-top: 120px;
+}
+.yellow-strip {
+    background-color: #FACE0F;
+    padding: 25px 0px;
+}
+.yellow-strip h4{
+    font-size: 40px;
+    line-height: 40px;
+    color: #1C3AA4;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px 50px;
+}
+@media only screen and (min-width: 1920px){
+    .container-fluid {
+        width: 1720px;
+    }
+}

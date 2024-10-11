@@ -493,6 +493,26 @@ a.arrow-down-btn:hover{
     font-size: 28px;
     font-weight: 600;
 }
+.space-top-100{
+    margin-top: 100px;
+}
+.section-title-style span{
+    display: inline-block;
+}
+.five-thousand-title{
+    position: relative;
+}
+.five-thousand-title .section-title-style{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0px;
+}
+.five-thousand-title .section-title-style .btn.btn-style{
+    margin-top: 30px;
+    width: auto;
+    padding: 12px 40px;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;

@@ -454,6 +454,45 @@ a.arrow-down-btn:hover{
   .our-strength-section .see-what-box .section-title-style .btn.btn-style{
     color: #1C3AA4;
   }
+  .satisfied-customers-section{
+    background-image: url("../images/customer-bg.jpg");
+    background-size: cover;
+    background-position: top left;
+  }
+  .satisfied-customers-section h3{
+    color: #1C3AA4;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .satisfied-customers-section span{
+    position: relative;
+    right: -20px;
+    top: -8px;
+}
+.customer-review i{
+    display: inline-block;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+.customer-review{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 60px 30px;
+    margin-left: 20px;
+    display: flex;
+}
+.customer-review-text p{
+    color: #1C3AA4;
+    font-size: 16px;
+    line-height: 28px
+}
+.customer-review-text h6{
+    text-align: right;
+    margin-bottom: 0px;
+    color: #1C3AA4;
+    font-size: 28px;
+    font-weight: 600;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;

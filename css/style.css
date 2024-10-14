@@ -508,10 +508,118 @@ a.arrow-down-btn:hover{
     left: 0;
     right: 0px;
 }
+.five-thousand-title .section-title-style i{
+    font-style: normal;
+    color: #FACE0F;
+}
+.five-thousand-title  .section-title-style p{
+    color: #1C3AA4;
+    margin-bottom: 0px;
+}
 .five-thousand-title .section-title-style .btn.btn-style{
     margin-top: 30px;
     width: auto;
     padding: 12px 40px;
+}
+.work-point h5{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.work-point p{
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+}
+.work-point i {
+    display: block;
+    margin-bottom: 20px;
+}
+.margin-top-100{
+    margin-top: 100px;
+}
+.footer-bouble-image{
+    display: inline-block;
+    width: 420px;
+    height: 320px;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -50px;
+}
+.footer-top {
+    padding-top: 100px;
+    background-color: #ffffff;
+    border-radius: 30px 30px 0px 0px;
+    margin-top: -30px;
+    position: relative;
+}
+.book-now-footer h4{
+    font-size: 24px;
+    color: #1C3AA4;
+}
+.book-now-footer a{
+    color: #FACE0F;
+    font-size: 50px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: inline-block;
+}
+.footer-bouble {
+    position: absolute;
+    top: -40px;
+}
+.book-now-footer{
+    padding-left: 100px;
+}
+.footer-top{
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 60px;
+}
+.footer-bottom{
+    padding: 60px 0px;
+}
+.footer-contact p{
+    font-size: 16px;
+    color: #1C3AA4;
+}
+.footer-contact a{
+    color: #1C3AA4;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer-address a{
+    text-decoration: none;
+    color: #1C3AA4;
+}
+.footer-address{
+    text-align: center;
+}
+.footer-social ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+.footer-social ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.footer-social ul li i{
+    color: #1C3AA4;
+    font-size: 25px;
+}
+.copyright-text p{
+    margin-bottom: 0px;
+    color: #1C3AA4;
+    font-size: 16px;
+}
+.copyright-section{
+    border-top: 1px solid #dddddd;
+    padding: 20px 0px;
 }
 @media only screen and (min-width: 1920px){
     .container-fluid {

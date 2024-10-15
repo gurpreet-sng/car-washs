@@ -8,6 +8,9 @@ header{
     border-bottom: 1px solid #2F4DB8;
     padding-bottom: 5px;
 }
+.our-strength-section.space-top-bottom{
+    padding-bottom: 0px;
+}
 .navbar-nav.me-auto{
     margin-left: auto!important;
     margin-right: 0px !important;
@@ -445,6 +448,9 @@ a.arrow-down-btn:hover{
     background-image: url("../images/carwash3-wrap-bg3.webp");
     background-color: #ffffff;
     border-radius: 32px 0px 0px 32px;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
   }
   .our-strength-section .see-what-box{
     padding: 100px 40px !important;
@@ -464,6 +470,7 @@ a.arrow-down-btn:hover{
     background-image: url("../images/customer-bg.jpg");
     background-size: cover;
     background-position: top left;
+    padding-top: 240px;
   }
   .satisfied-customers-section h3{
     color: #1C3AA4;
@@ -630,6 +637,9 @@ a.arrow-down-btn:hover{
 .arrow-down-btn i{
     flex-shrink: 0;
 }
+.see-what-we-can-do{
+    margin-bottom: -100px;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
@@ -770,6 +780,10 @@ a.arrow-down-btn:hover{
 }
 @media only screen and (max-width: 767px){
 
+    .see-what-we-can-do{
+        margin-bottom: 0px;
+        padding-bottom: 100px;
+    }
     .banner-section-wrapper h1{
         font-size: 50px;
         line-height: 65px;

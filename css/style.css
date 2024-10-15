@@ -11,6 +11,9 @@ header{
 .our-strength-section.space-top-bottom{
     padding-bottom: 0px;
 }
+.mission-vision-box p{
+    margin-bottom: 10px;
+}
 .navbar-nav.me-auto{
     margin-left: auto!important;
     margin-right: 0px !important;
@@ -48,7 +51,7 @@ header{
     border: 1px solid #FACE0F !important;
 }
 .btn-style:hover{
-    background-color: transparent;
+    background-color: #1C3AA4;
     color: #ffffff;
 }
 .banner-section-wrapper{
@@ -640,6 +643,72 @@ a.arrow-down-btn:hover{
 .see-what-we-can-do{
     margin-bottom: -100px;
 }
+.inner-page-image{
+    margin-bottom: -200px;
+}
+.space-top-200{
+    padding-top: 200px;
+}
+.space-top-320{
+    padding-top: 320px;
+}
+.satisfied-customers-innerpage{
+    padding-top: 120px;
+}
+.mission-vision-box{
+    background-color: #2D4CB8;
+    border-radius: 30px;
+    padding: 40px;
+    min-height: 500px;
+}
+.mission-vision-box h4{
+    font-size: 55px;
+    color: #ffffff;
+    line-height: 55px;
+    margin: 20px 0px;
+}
+.mission-vision-box i{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.mission-vision-box p{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+}
+.mission-vision-box ul li{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.section-title-style.inner-page-title{
+    margin-bottom: 0px;
+}
+.service-box h3{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+.service-box{
+    margin-bottom: 40px;
+}
+.services-section-wrapper{
+    margin-top: -150px;
+    padding-bottom: 100px;
+}
+.our-strength-section.service-page-banner{
+    padding-bottom: 200px;
+}
+.section-title-style.inner-page-title h2{
+    margin-bottom: 0px;
+}
+.service-img{
+    text-align: center;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
@@ -695,6 +764,16 @@ a.arrow-down-btn:hover{
 }
 @media only screen and (max-width: 991px){
 
+    .services-section-wrapper {
+        margin-top: -100px;
+        padding-bottom: 60px;
+    }
+    .service-box h3{
+        font-size: 20px;
+    }
+    .our-strength-section.service-page-banner{
+        padding-bottom: 150px;
+    }
     .car-washing-points ul{
         flex-wrap: wrap;
     }
@@ -780,6 +859,29 @@ a.arrow-down-btn:hover{
 }
 @media only screen and (max-width: 767px){
 
+    .mission-vision-box{
+        min-height: auto;
+        padding: 30px;
+    }
+    .about-images-section{
+        padding-bottom: 60px;
+    }
+    .mission-vision-box h4{
+        font-size: 45px;
+        margin: 10px 0px;
+    }
+    .about-images-section.space-top-100{
+        margin-top: 40px;
+    }
+    .inner-page-image {
+        margin-bottom: 60px;
+    }
+    .space-top-320 {
+        padding-top: 60px;
+    }
+    .mission-vision-box{
+        margin-bottom: 40px;
+    }
     .see-what-we-can-do{
         margin-bottom: 0px;
         padding-bottom: 100px;
@@ -866,6 +968,9 @@ a.arrow-down-btn:hover{
     }
     .topicon.text-end{
         display: none;
+    }
+    .our-strength-section.service-page-banner {
+        padding-bottom: 120px;
     }
 }
 @media only screen and (max-width: 575px){

@@ -870,6 +870,9 @@ a.arrow-down-btn:hover{
 }
 @media only screen and (max-width: 575px){
 
+    .see-what-we-can-do{
+        padding-bottom: 60px;
+    }
     .btn-group-style{
         flex-direction: column;
         align-items: flex-start;

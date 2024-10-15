@@ -12,6 +12,12 @@ header{
     margin-left: auto!important;
     margin-right: 0px !important;
 }
+.navbar-nav.me-auto li{
+    text-align: center;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
 .space-left-right{
     padding: 0px 50px;
 }
@@ -621,6 +627,9 @@ a.arrow-down-btn:hover{
     border-top: 1px solid #dddddd;
     padding: 20px 0px;
 }
+.arrow-down-btn i{
+    flex-shrink: 0;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
@@ -628,13 +637,353 @@ a.arrow-down-btn:hover{
 }
 @media only screen and (max-width: 1199px){
 
+    .navbar-brand{
+        flex-shrink: 0;
+        width: 170px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+    .navbar-nav .btn-style{
+        width: auto;
+        font-size: 16px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 70px;
+    }
+    .spaceleft-right{
+        padding: 0px 20px;
+    }
+    .wrapper{
+        width: 680px;
+        height: 610px;
+    } 
+    .section-title-style h2{
+        font-size: 54px;
+        line-height: 65px;
+    }
+    .section-title-style ul li{
+        font-size: 30px;
+    }
+    .our-strength-section .see-what-box .section-title-style h2{
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .satisfied-customers-section h3{
+        font-size: 40px;
+    }
+    .work-point h5 {
+        font-size: 35px;
+    }
+    .footer-bouble{
+        width: 300px;
+    }
+    .book-now-footer a{
+        font-size: 40px;
+    }
 }
 @media only screen and (max-width: 991px){
 
+    .car-washing-points ul{
+        flex-wrap: wrap;
+    }
+    .car-washing-points ul li {
+        margin: 0px 0px 20px 155px;
+    }
+    .yellow-strip h4 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .car-washing-center .space-top-bottom{
+        padding: 60px 0px;
+    }
+    .car-washing-center .section-title-style{
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .car-protection{
+        margin-bottom: 60px;
+    }
+    .our-strength-section.space-top-bottom.space-top-120{
+        padding-top: 60px;
+    }
+    .section-title-style h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .cargraphic{
+        width: 220px;
+    }
+    .see-what-box{
+        border-radius: 32px;
+        margin-bottom: 40px;
+    }
+    .our-strength-section .space-top-120{
+        padding-top: 60px;
+    }
+    .wrapper {
+        
+    }
+    .customer-review{
+        padding: 50px 20px;
+    }
+    .satisfied-customers-section h3{
+        font-size: 32px;
+    }
+    .work-point h5{
+        font-size: 28px;
+    }
+    .work-point p{
+        font-size: 18px;
+    }
+    .footer-bouble{
+        width: 240px;
+    }
+    .book-now-footer{
+        padding-left: 20px;
+    }
+    .book-now-footer a{
+        font-size: 30px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .banner-section-wrapper p{
+        font-size: 30px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+    .navbar-nav .btn-style{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .banner-section-wrapper.space-top-120{
+        padding-top: 80px;
+    }
+    .banner-form{
+        margin-top: 150px;
+    }
 }
 @media only screen and (max-width: 767px){
 
+    .banner-section-wrapper h1{
+        font-size: 50px;
+        line-height: 65px;
+    }
+    br{
+        display: none;
+    }
+    .wrapper{
+        width: 500px;
+        height: 610px;
+    }
+    .cargraphic{
+        position: static;
+    }
+    .section-title-style h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .section-title-style ul li {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .car-washing-center .section-title-style{
+        padding: 60px 40px;
+    }
+    .our-strength-section.space-top-bottom.space-top-120{
+        padding-top: 30px;
+    }
+    .satisfied-customers-section.space-top-bottom.space-top-120{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .satisfied-customers-section span{
+        display: none;
+    }
+    .satisfied-customers-section h3{
+        margin-bottom: 30px;
+    }
+    .customer-review{
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .over-five-thousand .space-top-100{
+        margin-top: 60px;
+    }
+    .satisfied-customers-section h3{
+        text-align: center;
+    }
+    .girl-img{
+        text-align: center;
+    }
+    .satisfied-customers-section .five-thousand-title h3{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .how-it-works .margin-top-100{
+        margin-top: 60px;
+    }
+    .how-it-works .work-point{
+        margin-bottom: 40px;
+    }
+    .footer-bouble{
+        position: static;
+        margin: 40px 0px;
+    }
+    .footer-top{
+        padding-top: 60px
+    }
+    .book-now-footer {
+        padding-left: 0px;
+    }
+    .footer-address {
+        text-align: left;
+    }
+    .footer-social ul{
+        text-align: left;
+    }
+    .footer-bottom{
+        padding: 40px 0px;
+    }
+    .topicon.text-end{
+        display: none;
+    }
 }
 @media only screen and (max-width: 575px){
 
+    .btn-group-style{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .wrapper{
+        width: 300px;
+        height: 410px;
+    }
+    .banner-section-wrapper.space-top-120{
+        padding-top: 60px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .banner-section-wrapper p{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .btn-style{
+        font-size: 16px;
+        width: auto;
+        padding: 12px 20px;
+    }
+    .banner-form {
+        margin-top: 50px;
+    }
+    .spaceleft-right{
+        padding: 0px 15px;
+    }
+    .yellow-strip{
+        padding: 15px 0px;
+    }
+    .yellow-strip h4 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .car-washing-points ul {
+        align-items: center;
+        justify-content: center;
+    }
+    .car-washing-center .space-top-bottom{
+        padding: 40px 0px;
+    }
+    .car-washing-center .section-title-style {
+        padding: 50px 20px;
+    }
+    .section-title-style h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .section-title-style ul li{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-title-style ul {
+        margin: 0px 0px 30px;
+    }
+    .btn-group-style .arrow-down-btn{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .car-protection{
+        width: 90%;
+        margin: auto;
+    }
+    .our-strength-section .space-top-120 {
+        padding-top: 20px;
+        width: 95%;
+        margin: auto;
+    }
+    .our-strength-section .see-what-box {
+        padding: 100px 30px 30px !important;
+    }
+    .our-strength-section .see-what-box .section-title-style h2{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .customer-review{
+        flex-direction: column;
+    }
+    .customer-review i {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .customer-review-text h6{
+        font-size: 24px;
+    }
+    .over-five-thousand .space-top-100{
+        margin-top: 30px;
+    }
+    .five-thousand-title .section-title-style{
+        position: static;
+    }
+    .how-it-works.space-top-100{
+        margin-top: 60px;
+    }
+    .work-point h5 {
+        font-size: 24px;
+    }
+    .how-it-works .margin-top-100 {
+        margin-top: 40px;
+    }
+    .footer-bouble {
+        width: 180px;
+        margin: 30px auto !important;
+    }
+    .footer-logo{
+        width: 200px;
+    }
+    .footer-top{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .book-now-footer h4{
+        font-size: 20px;
+    }
+    .book-now-footer a{
+        font-size: 24px;
+    }
+    .copyright-text p{
+        font-size: 14px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 10px;
+    }
+    .navbar-nav .btn-style{
+        margin-top: 10px;
+    }
 }

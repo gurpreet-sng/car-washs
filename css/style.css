@@ -467,7 +467,14 @@ a.arrow-down-btn:hover{
     line-height: 55px;
   }
   .our-strength-section .see-what-box .section-title-style .btn.btn-style{
-    color: #1C3AA4;
+    
+  }
+  .gallery-image{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .works-page-banner{
+    padding-bottom: 100px !important;
   }
   .satisfied-customers-section{
     background-image: url("../images/customer-bg.jpg");

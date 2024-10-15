@@ -1030,9 +1030,15 @@ a.arrow-down-btn:hover{
 }
 @media only screen and (max-width: 575px){
 
+    .our-strength-section.space-top-bottom.works-page-banner{
+        padding: 40px 0px;
+    }
     .works-page-banner .see-what-box{
         width: 95%;
         margin: 0px auto 40px;
+    }
+    .our-strength-section.works-page-banner .see-what-box{
+        padding-top: 60px !important;
     }
     .see-what-we-can-do{
         padding-bottom: 60px;

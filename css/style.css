@@ -709,6 +709,48 @@ a.arrow-down-btn:hover{
 .service-img{
     text-align: center;
 }
+.pricing-box{
+    background-color: #2D4CB8;
+    border-radius: 30px;
+    padding: 30px 20px;
+    text-align: center;
+}
+.pricing-box  .btn-style{
+    width: auto;
+    margin-top: 30px;
+}
+.pricing-box h5{
+    font-size: 30px;
+    color: #ffffff;
+}
+.pricing-box h2{
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.pricing-box sup{
+    font-size: 18px;
+    font-weight: 400;
+}
+.pricing-box p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+.pricing-box ul{
+    margin: 0px;
+}
+.pricing-box ul li{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+}
+.pricing-box hr{
+    color: #ffffff;
+    opacity: 1;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
@@ -719,6 +761,9 @@ a.arrow-down-btn:hover{
     .navbar-brand{
         flex-shrink: 0;
         width: 170px;
+    }
+    .pricing-box h2{
+        font-size: 70px;
     }
     .navbar-expand-md .navbar-nav .nav-link{
         font-size: 16px;
@@ -764,6 +809,9 @@ a.arrow-down-btn:hover{
 }
 @media only screen and (max-width: 991px){
 
+    .pricing-box{
+        margin-bottom: 40px;
+    }
     .services-section-wrapper {
         margin-top: -100px;
         padding-bottom: 60px;

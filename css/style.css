@@ -1409,8 +1409,11 @@ img.zoom{
         padding-top: 60px;
     }
     .banner-section-wrapper h1{
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-section-wrapper{
+        padding-bottom: 60px;
     }
     .banner-section-wrapper p{
         font-size: 22px;

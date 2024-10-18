@@ -725,11 +725,7 @@ a.arrow-down-btn:hover{
     font-size: 30px;
     color: #ffffff;
 }
-.pricing-box h2{
-    font-size: 80px;
-    color: #ffffff;
-    font-weight: 700;
-}
+
 .pricing-box sup{
     font-size: 18px;
     font-weight: 400;
@@ -1024,7 +1020,49 @@ img.zoom{
     font-weight: 700;
     line-height: 70px;
 }
+.plan-circle{
+    padding: 15px;
+    height: 275px;
+    width: 275px;
+    background-color: #2db7ff05;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    box-shadow: 0 2px 16px #06163a4f;
+    place-self: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    text-decoration: none;
+    margin: auto;
+}
+.plan-circle h4{
+    font-size: 22px;
+    font-weight: bold;
+    color: #263788;
+    text-shadow: 1px 1px #26378833;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.plan-circle:hover{
+    box-shadow: unset;
+    transition: 0.5s;
+    border: 1px solid #263788;
+    transform: scale(1.06);
+    background: #263788;
+}
+.plan-circle:hover h4{
+    color: #ffffff;
+}
+.pricing-box h2{
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 700;
+}
 @media only screen and (min-width: 1920px){
+    .pricing-box h2{
+        font-size: 80px;
+    }
     .container-fluid {
         width: 1720px;
     }
@@ -1091,6 +1129,11 @@ img.zoom{
 }
 @media only screen and (max-width: 991px){
 
+    .plan-circle{
+        height: 200px;
+        width: 200px;
+        font-size: 18px;
+    }
     .space-top-bottom.terms-codition-text{
         padding: 60px 0px;
     }
@@ -1192,6 +1235,9 @@ img.zoom{
 }
 @media only screen and (max-width: 767px){
 
+    .plan-circle{
+        margin-bottom: 30px;
+    }
     .person-info{
         margin-bottom: 40px;
     }

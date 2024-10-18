@@ -717,6 +717,7 @@ a.arrow-down-btn:hover{
     border-radius: 30px;
     padding: 30px 20px;
     text-align: center;
+    height: 100%;
 }
 .pricing-box  .btn-style{
     width: auto;

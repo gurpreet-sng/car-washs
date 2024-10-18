@@ -894,6 +894,9 @@ img.zoom{
     background-color: #face0f;
     color: #1c3aa4;
 }
+.list-style li{
+    margin-bottom: 20px;
+}
 
 @media only screen and (min-width: 1920px){
     .container-fluid {
@@ -950,9 +953,18 @@ img.zoom{
     .book-now-footer a{
         font-size: 40px;
     }
+    .contact-form-wrapper h4{
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width: 991px){
-
+    
+    .space-top-bottom.terms-codition-text{
+        padding: 60px 0px;
+    }
+    .person-info-wrapper{
+        margin-bottom: 60px;
+    }
     .pricing-box{
         margin-bottom: 40px;
     }
@@ -1048,6 +1060,16 @@ img.zoom{
 }
 @media only screen and (max-width: 767px){
 
+    .person-info{
+        margin-bottom: 40px;
+    }
+    .person-info-wrapper{
+        margin-bottom: 20px;
+    }
+    .contact-section-wrapper.banner-section-wrapper h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
     .mission-vision-box{
         min-height: auto;
         padding: 30px;
@@ -1164,6 +1186,26 @@ img.zoom{
 }
 @media only screen and (max-width: 575px){
 
+    .contact-section-wrapper.banner-section-wrapper.space-top-bottom{
+        padding-top: 60px;
+    }
+    .contact-section-wrapper.banner-section-wrapper h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .person-info .person-phone{
+        font-size: 25px;
+    }
+    .person-info{
+        padding: 40px 20px 40px;
+    }
+    .person-info hr{
+        margin: 20px 0px;
+    }
+    .contact-form-wrapper h4{
+        font-size: 25px;
+        line-height: 35px;
+    }
     .our-strength-section.space-top-bottom.works-page-banner{
         padding: 40px 0px;
     }

@@ -57,6 +57,7 @@ header{
 .banner-section-wrapper{
     background-color: #1C3AA4;
     overflow: hidden;
+    padding-bottom: 100px;
 }
 .banner-section-wrapper h6{
     font-weight: 700;
@@ -73,12 +74,7 @@ header{
     top: -3px;
     margin-right: 10px;
 }
-.banner-section-wrapper h1{
-    font-size: 80px;
-    color: #ffffff;
-    font-weight: 700;
-    line-height: 85px;
-}
+
 .banner-section-wrapper h1 span{
     color: #FACE0F;
 }
@@ -97,7 +93,7 @@ header{
     background-color: #ffffff;
     padding: 40px 30px;
     position: relative;
-    margin-top: 220px;
+    margin-top: 0px;
 }
 .banner-section-wrapper{
     background-image:url("../images/transparent-img.png");
@@ -124,6 +120,7 @@ header{
     height: 50px;
     color: #ffffff;
 }
+/*
 .banner-form:before{
     content: "";
     position: absolute;
@@ -131,8 +128,9 @@ header{
     height: 514px;
     background: url("../images/Banner-image.png");
     left: -888px;
-    bottom: -50px;
+    bottom: -117px;
 }
+*/
 .banner-content-wrapper{
     z-index: 50;
     position: relative;
@@ -921,7 +919,7 @@ img.zoom{
 .book--car--form .form-select {
     padding: 10px 0.9375rem;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: 0.0088rem;
@@ -931,23 +929,24 @@ img.zoom{
     align-items: center;
     justify-content: space-between;
     border-radius: 0.125rem;
-    border: 1px solid #9b9b9b80;
-    text-transform: uppercase;
+    border: 0px;
+    text-transform: capitalize;
     cursor: pointer;
     width: 100%;
 }
 .book--car--form .form-select h5 {
     margin: 3px 0;
     text-align: left;
-    color: #4a4a4a;
+    color: #878787;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     font-family: inherit;
+    text-transform: capitalize;
 }
 .book--car--form .form-select{
     padding: 10px 0.9375rem;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: 0.0088rem;
@@ -957,8 +956,8 @@ img.zoom{
     align-items: center;
     justify-content: space-between;
     border-radius: 0.125rem;
-    border: 1px solid #9b9b9b80;
-    text-transform: uppercase;
+    border: 0px;
+    text-transform: capitalize;
     cursor: pointer;
     width: 100%;
 }
@@ -983,7 +982,7 @@ img.zoom{
 .book--car--form .form-select {
     padding: 10px 0.9375rem;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: 0.0088rem;
@@ -993,8 +992,8 @@ img.zoom{
     align-items: center;
     justify-content: space-between;
     border-radius: 0.125rem;
-    border: 1px solid #9b9b9b80;
-    text-transform: uppercase;
+    border: 0px;
+    text-transform: capitalize;
     cursor: pointer;
     width: 100%;
 }
@@ -1019,9 +1018,21 @@ img.zoom{
     color: #ffffff;
     padding: 13px;
 }
+.banner-section-wrapper h1{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 70px;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 80px;
+        color: #ffffff;
+        font-weight: 700;
+        line-height: 85px;
     }
 }
 @media only screen and (max-width: 1199px){

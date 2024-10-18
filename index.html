@@ -59,7 +59,7 @@
                         <div class="banner-content">
                             <h6><i><img src="images/border.png" class="img-fluid"></i>The Car Wash</h6>
                             <h1>Premium<br>
-                            Pressure Washing <span>at your Door-Step!</span></h1>
+                            Pressure Washing <span><br>at your Door-Step!</span></h1>
                             <p>Services starting at ₹199</p>
                             <a class="btn btn-style" href="#" role="button">Book a Service</a>
                         </div>
@@ -68,27 +68,33 @@
                         <div class="banner-form text-center">
                             <div class="book--car--form">
                                 <div class="wrapper--box">
-                                    <div class="back--form" bis_skin_checked="1">
+                                    <div class="back--form">
                                         <form action="">
-                                            <div class="" id="formoneshow" bis_skin_checked="1">
+                                            <div class="" id="formoneshow">
                                                 <h5>Experience The Best Car Services</h5>
                                                 <p>Get instant quotes for your car service</p>
-                                                <div class="row" bis_skin_checked="1">
-                                                    <div class="col-md-12" bis_skin_checked="1">
-                                                        <div class="form-group" bis_skin_checked="1">
-                                                            <div class="form-select formone" bis_skin_checked="1">
+                                                <div class="row" >
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <div class="mb-3">
+                                                                <input type="text" class="form-control" placeholder="*Full name...">
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <input type="tel" class="form-control" placeholder="*Phone...">
+                                                            </div>
+                                                            <div class="form-select formone">
                                                                 <h5 id="selectedCar">Select your car</h5>
                                                                 <img src="https://www.care4wheel.com//assets/user/img/ic_expand_more.svg" alt="">
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-12" bis_skin_checked="1">
-                                                        <div class="form-group" bis_skin_checked="1">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
                                                             <input type="text" onkeypress="return (event.charCode !=8 &amp;&amp; event.charCode ==0 || (event.charCode >= 48 &amp;&amp; event.charCode <= 57))" min="1" placeholder="Enter mobile number" id="phoneNumber" class="form-select">
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-12" bis_skin_checked="1">
-                                                        <div class="form-group" bis_skin_checked="1">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
                                                             <a id="checkPrices" class="btn--theame" type="button" onclick="checkPrices()">CHECK PRICES</a>
                                                         </div>
                                                     </div>
@@ -114,8 +120,8 @@
                                                     </div>
                                                 </div> -->
                                             </div>
-                                            <div class="" id="formtwoshow" bis_skin_checked="1" style="display: none;">
-                                                <div class="header" bis_skin_checked="1">
+                                            <div class="" id="formtwoshow" style="display: none;">
+                                                <div class="header">
                                                     <h5 class="title-wrapper">
                                                         <span>
                                                             <a href="javascript:void(0);" class="formzero">
@@ -127,11 +133,11 @@
                                                         </a>
                                                     </h5>
                                                 </div>
-                                                <div class="form-group" bis_skin_checked="1">
+                                                <div class="form-group">
                                                     <span class="search--img"><img loading="lazy" src="https://www.care4wheel.com//assets/user/img/search.svg" alt="Search"></span>
                                                     <input type="search" placeholder="Search Brands" onkeyup="searchmanufacturer(this.value)" class="form-select search">
                                                 </div>
-                                                <div class="row" id="brand_data" bis_skin_checked="1">
+                                                <div class="row" id="brand_data">
                                                                                         <div class="col-6 col-md-4  text-center" onclick="selectBrand('Audi')" bis_skin_checked="1">
                                                             <a href="javascript:void(0);" id="formthree" onclick="get_model('1');" class="hover--cars">
                                                                 <img src="https://www.care4wheel.com/uploads/brand_images/audi.png" alt="" width="40px" height="40px" class="brand--img">

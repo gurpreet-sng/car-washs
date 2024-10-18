@@ -897,7 +897,128 @@ img.zoom{
 .list-style li{
     margin-bottom: 20px;
 }
+.form-select:focus{
+    box-shadow: none !important;
+}
 
+
+#brand_data {
+    height: 275px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.title-wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.14px;
+    text-align: left;
+    color: #282828;
+}
+.book--car--form .form-select {
+    padding: 10px 0.9375rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.0088rem;
+    text-align: left;
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.125rem;
+    border: 1px solid #9b9b9b80;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+.book--car--form .form-select h5 {
+    margin: 3px 0;
+    text-align: left;
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+}
+.book--car--form .form-select{
+    padding: 10px 0.9375rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.0088rem;
+    text-align: left;
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.125rem;
+    border: 1px solid #9b9b9b80;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+.search--img {
+    position: absolute;
+    margin: 13px;
+    left: 0px;
+}
+.book--car--form .form-select:focus-visible {
+    border-radius: 0.125rem !important;
+    border: 0.0625rem solid #9b9b9b !important;
+    outline: none !important;
+}
+.book--car--form .form-select:focus {
+    border-radius: 0.125rem !important;
+    border: 0.0625rem solid #9b9b9b !important;
+    outline: none !important;
+}
+.book--car--form .form-select.search {
+    padding: 0.9375rem 0.9375rem 0.9375rem 2rem;
+}
+.book--car--form .form-select {
+    padding: 10px 0.9375rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.0088rem;
+    text-align: left;
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.125rem;
+    border: 1px solid #9b9b9b80;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+.back--form .form-group{
+    position: relative;
+}
+.back--form .form-group{
+    margin-bottom: 1rem;
+}
+.back--form a{
+    text-decoration: none;
+}
+.btn--theame {
+    background-color: #000000;
+    border-radius: 0px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    height: 50px;
+    color: #ffffff;
+    padding: 13px;
+}
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;
@@ -958,7 +1079,7 @@ img.zoom{
     }
 }
 @media only screen and (max-width: 991px){
-    
+
     .space-top-bottom.terms-codition-text{
         padding: 60px 0px;
     }

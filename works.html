@@ -40,7 +40,7 @@
                                 <a class="nav-link" href="pricing.html">Works</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="btn btn-lg btn-style" href="#" role="button">Book a Service</a>
@@ -90,40 +90,41 @@
     </div>
 
     <div class="gallery-section-wrapper space-top-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="gallery-image">
-                        <img src="images/g1.jpg" class="img-fluid">
+        <!-- Page Content -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a href="images/g1.jpg" class="fancybox" rel="ligthbox">
+                            <img  src="images/g1.jpg" class="zoom img-fluid"  alt="">
+                        </a>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-image">
-                        <img src="images/g2.jpg" class="img-fluid">
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a href="images/g2.jpg"  class="fancybox" rel="ligthbox">
+                            <img  src="images/g2.jpg" class="zoom img-fluid"  alt="">
+                        </a>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-image">
-                        <img src="images/g3.jpg" class="img-fluid">
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a href="images/g3.jpg" class="fancybox" rel="ligthbox">
+                            <img  src="images/g3.jpg" class="zoom img-fluid "  alt="">
+                        </a>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-image">
-                        <img src="images/g4.jpg" class="img-fluid">
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a href="images/g4.jpg" class="fancybox" rel="ligthbox">
+                            <img  src="images/g4.jpg" class="zoom img-fluid "  alt="">
+                        </a>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-image">
-                        <img src="images/g5.jpg" class="img-fluid">
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a href="images/g5.jpg" class="fancybox" rel="ligthbox">
+                            <img  src="images/g5.jpg" class="zoom img-fluid "  alt="">
+                        </a>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="gallery-image">
-                        <img src="images/g6.jpg" class="img-fluid">
+                    <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                        <a href="images/g6.jpg" class="fancybox" rel="ligthbox">
+                            <img  src="images/g6.jpg" class="zoom img-fluid "  alt="">
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
    
 
@@ -209,6 +210,10 @@
             crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+        
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+ <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
         <script>
             // I hope this over-commenting helps. Let's do this!
 // Let's use the 'active' variable to let us know when we're using it
@@ -270,6 +275,25 @@ document.body.addEventListener('touchcancel',function(){
   document.querySelector('.scroller').classList.remove('scrolling');
 });
         </script>
+
+        <script>
+            $(document).ready(function(){
+                $(".fancybox").fancybox({
+                        openEffect: "none",
+                        closeEffect: "none"
+                    });
+                    
+                    $(".zoom").hover(function(){
+                        
+                        $(this).addClass('transition');
+                    }, function(){
+                        
+                        $(this).removeClass('transition');
+                    });
+                });
+    
+        </script>
+
     </footer>
 </body>
 

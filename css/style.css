@@ -755,6 +755,146 @@ a.arrow-down-btn:hover{
     color: #ffffff;
     opacity: 1;
 }
+
+/*gallery style start*/
+#demo{
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+.green{
+    background-color:#6fb936;
+}
+.thumb{
+    margin-bottom: 30px;
+}
+          
+.page-top{
+    margin-top:85px;
+}
+img.zoom{
+      width: 100%;
+      height: 200px;
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+}
+.transition{
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-title {
+    color:#000;
+}
+.modal-footer{
+    display:none;  
+}
+/*gallery style end*/
+
+.contact-section-wrapper.banner-section-wrapper h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+.contact-section-wrapper.banner-section-wrapper{
+    background-image: none;
+}
+.person-info{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 40px 60px;
+}
+.contact-section-wrapper.banner-section-wrapper h6{
+    color: #FACE0F;
+    font-size: 16px;
+}
+.contact-section-wrapper.banner-section-wrapper .person-info h6{
+    color: #1C3AA4;
+}
+.person-img{
+    margin-bottom: 40px;
+}
+.contact-section-wrapper.banner-section-wrapper p{
+    font-size: 16px;
+    color: #1C3AA4;
+}
+.person-info .person-phone{
+    color: #1C3AA4;
+    text-decoration: none;
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+}
+.person-info .person-email{
+    color: #1C3AA4;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.person-info hr{
+    margin: 40px 0px;
+}
+.contact-form-wrapper.banner-form:before{
+    display: none;
+}
+.contact-form-wrapper.banner-form{
+    margin-top: 0px;
+}
+.contact-section-wrapper.banner-section-wrapper .address-title h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.address-title a{
+    color: #A6B7F5;
+    text-decoration: none;
+}
+.contact-section-wrapper.banner-section-wrapper .address-title p{
+    color: #A6B7F5;
+    text-decoration: none;
+}
+.contact-section-wrapper .banner-content{
+    margin-bottom: 40px;
+}
+.banner-form textarea.form-control{
+    height: 140px;
+    padding: 20px;
+}
+.contact-form-wrapper.banner-form{
+    background-color: #2543af;
+}
+.contact-form-wrapper h4{
+    color: #F5F5F5;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.contact-form-wrapper.banner-form .form-control{
+    background-color: #2d4bb5;
+    color: #ffffff;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.contact-form-wrapper.banner-form  ::placeholder {
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+}
+.contact-form-wrapper.banner-form .btn{
+    background-color: #face0f;
+    color: #1c3aa4;
+}
+
 @media only screen and (min-width: 1920px){
     .container-fluid {
         width: 1720px;

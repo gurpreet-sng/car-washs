@@ -444,6 +444,7 @@ a.arrow-down-btn:hover{
   }
   .before-after-wrapper{
     position: relative;
+    background-color: #ffffff;
   }
   .see-what-box{
     background-image: url("../images/carwash3-wrap-bg3.webp");
@@ -1072,6 +1073,7 @@ img.zoom{
         font-weight: 700;
         line-height: 85px;
     }
+    
 }
 @media only screen and (max-width: 1199px){
 

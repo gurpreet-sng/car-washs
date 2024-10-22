@@ -102,10 +102,11 @@ header{
     background-position: center;
 }
 .banner-form .form-control, .banner-form .form-select{
-    background-color: #ebebeb;
+    
+    background-color: #2d4bb5;
     border-radius: 0px;
     border: 0px;
-    color: #000000;
+    color: #ffffff;
     height: 50px;
     padding: 0px 20px;
 }
@@ -1103,6 +1104,28 @@ img.zoom{
 .space-bottom-100{
     margin-bottom: 100px;
 }
+.form-select{
+    position: relative;
+}
+.select_box:after{
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #ffffff;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    content: "";
+    z-index: 98;
+   }
+  .select_box select{
+    width: 220px;
+    border: 0;
+    position: relative;
+    z-index: 99;
+    background: none;
+  }
 @media only screen and (min-width: 1920px){
     .pricing-box h2{
         font-size: 80px;

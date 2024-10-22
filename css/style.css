@@ -1097,6 +1097,9 @@ img.zoom{
     text-decoration: none;
     display: block;
 }
+.service-detail-banner.space-top-bottom{
+    
+}
 @media only screen and (min-width: 1920px){
     .pricing-box h2{
         font-size: 80px;

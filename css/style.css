@@ -1097,8 +1097,11 @@ img.zoom{
     text-decoration: none;
     display: block;
 }
-.service-detail-banner.space-top-bottom{
-    
+.space-top-50{
+    margin-top: 50px;
+}
+.space-bottom-100{
+    margin-bottom: 100px;
 }
 @media only screen and (min-width: 1920px){
     .pricing-box h2{

@@ -1061,6 +1061,42 @@ img.zoom{
     color: #ffffff;
     font-weight: 700;
 }
+.service-detail-wrapper{
+    display: flex;
+}
+.service-image{
+    border-radius: 30px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.service-detail h4{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.service-detail ul li{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.pricetag{
+    margin-top: 40px;
+}
+.pricetag span{
+    font-size: 22px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.pricetag del{
+    font-size: 22px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.service-box{
+    text-decoration: none;
+    display: block;
+}
 @media only screen and (min-width: 1920px){
     .pricing-box h2{
         font-size: 80px;

@@ -1441,6 +1441,26 @@ img.zoom{
 }
 @media only screen and (max-width: 575px){
 
+    .our-strength-section .section-title-style {
+        margin-bottom: 20px;
+    }
+    .detail-icon p{
+        font-size: 14px;
+    }
+    .cargraphic-row{
+        padding: 0px 20px;
+    }
+    .detail-icon h5{
+        font-size: 20px;
+    }
+    .car-washing-points ul li:before{
+        display: none;
+    }
+    .car-washing-points ul li{
+        width: 50%;
+        margin: 0px 0px 20px;
+    }
+    
     .contact-section-wrapper.banner-section-wrapper.space-top-bottom{
         padding-top: 60px;
     }
@@ -1519,7 +1539,7 @@ img.zoom{
         justify-content: center;
     }
     .car-washing-center .space-top-bottom{
-        padding: 40px 0px;
+        padding: 40px 30px 20px;
     }
     .car-washing-center .section-title-style {
         padding: 50px 20px;

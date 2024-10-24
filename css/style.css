@@ -21,12 +21,12 @@ section.massonry-section img{
     margin-bottom: 20px;
     border: 1px solid #dddddd;
 }
-section img{
+section.massonry-section img{
   width: 100%;
   cursor: pointer;
 }
 
-.lightbox {
+.massonry-section .lightbox {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -36,7 +36,7 @@ section img{
   perspective: 1000;
 }
 
-.filter {
+.massonry-section .filter {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -60,7 +60,7 @@ section img{
 
 /*.lightbox:hover img{
   transform: translate(-50%, -50%) rotateY(180deg);
-}*/
+}
 
 [class^="arrow"] {
   height: 200px;
@@ -137,7 +137,7 @@ section img{
   top: 0;
   left: 0;
 }
-
+*/
 
 
 

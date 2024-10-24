@@ -593,7 +593,7 @@ a.arrow-down-btn:hover{
     background-color: #ffffff;
     border-radius: 32px 0px 0px 32px;
     background-size: contain;
-    background-position: bottom;
+    background-position: left bottom;
     background-repeat: no-repeat;
   }
   .our-strength-section .see-what-box{
@@ -1712,7 +1712,7 @@ img.zoom{
         margin: auto;
     }
     .our-strength-section .see-what-box {
-        padding: 100px 30px 30px !important;
+        padding: 50px 30px 30px !important;
     }
     .our-strength-section .see-what-box .section-title-style h2{
         font-size: 36px;

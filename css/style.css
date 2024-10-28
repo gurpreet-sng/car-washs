@@ -23,7 +23,7 @@ section.massonry-section img{
 }
 section.massonry-section img{
   width: 100%;
-  cursor: pointer;
+ /*cursor: pointer;*/
 }
 
 .massonry-section .lightbox {

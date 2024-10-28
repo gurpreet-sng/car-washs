@@ -1342,8 +1342,36 @@ img.zoom{
     content: "";
     z-index: 98;
    }
+  
+  .booking-form-wrapper{
+    background-image: url(../images/g9.jpg);
+  }
+  .booking-form-wrapper .banner-form{
+        background-color: rgba(255, 255, 255, 0.9);
+  }
+  .banner-form [type="tel"]::placeholder{
+    color: #ffffff;
+  }
+  .banner-form [type="text"]::placeholder{
+    color: #ffffff;
+  }
+  .select_box{
+    overflow: hidden;
+    position: relative;
+  }
+  .select_box:after{
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    content: "";
+    z-index: 105;
+   }
   .select_box select{
-    width: 220px;
     border: 0;
     position: relative;
     z-index: 99;
@@ -1362,7 +1390,6 @@ img.zoom{
         font-weight: 700;
         line-height: 85px;
     }
-    
 }
 @media only screen and (max-width: 1199px){
 

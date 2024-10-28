@@ -278,6 +278,9 @@ header{
     background-color: #1C3AA4;
     color: #ffffff;
 }
+.btn-style:active{
+    color: #FFFFFE !important;
+}
 .banner-section-wrapper{
     background-color: #1C3AA4;
     overflow: hidden;

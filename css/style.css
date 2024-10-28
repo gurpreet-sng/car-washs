@@ -7,7 +7,10 @@ body{
 .grid-item { width: 200px; }
 .grid-item--width2 { width: 400px; }
 
-
+.copyright-section a{
+    text-decoration: none;
+    color: #1C3AA4;
+}
 
 
 section.massonry-section{

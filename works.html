@@ -104,8 +104,78 @@
                     <img src="images/g13.jpg" />
                 </section>
                 
+            </div> 
+    </div>
+
+
+    <div class="thumbnail_slider">
+        <h2>Thumbnails Image Slider</h2>
+        <!-- Primary Slider Start-->
+        <div id="primary_slider">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/1539225/pexels-photo-1539225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/858115/pexels-photo-858115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/13295150/pexels-photo-13295150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/4275890/pexels-photo-4275890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/3511104/pexels-photo-3511104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/276484/pexels-photo-276484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/2026452/pexels-photo-2026452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                </ul>
             </div>
-            
+        </div>
+        <!-- Primary Slider End-->
+        <!-- Thumbnal Slider Start-->
+        <div id="thumbnail_slider">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/1539225/pexels-photo-1539225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/858115/pexels-photo-858115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/13295150/pexels-photo-13295150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/4275890/pexels-photo-4275890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/3511104/pexels-photo-3511104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/276484/pexels-photo-276484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="https://images.pexels.com/photos/2026452/pexels-photo-2026452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=1260">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Thumbnal Slider End-->
     </div>
    
   
@@ -247,6 +317,39 @@ document.body.addEventListener('touchcancel',function(){
   active = false;
   document.querySelector('.scroller').classList.remove('scrolling');
 });
+</script>
+
+
+<script>
+    // Primary slider.
+var primarySlider = new Splide('#primary_slider', {
+    type: 'fade',
+    heightRatio: 0.5,
+    pagination: false,
+    arrows: false,
+    cover: true,
+});
+
+// Thumbnails slider.
+var thumbnailSlider = new Splide('#thumbnail_slider', {
+    rewind: true,
+    fixedWidth: 100,
+    fixedHeight: 64,
+    isNavigation: true,
+    gap: 10,
+    focus: 'center',
+    pagination: false,
+    cover: true,
+    breakpoints: {
+        '600': {
+            fixedWidth: 66,
+            fixedHeight: 40,
+        }
+    }
+}).mount();
+
+// sync the thumbnails slider as a target of primary slider.
+primarySlider.sync(thumbnailSlider).mount();
 </script>
 
     </footer>

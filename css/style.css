@@ -4,13 +4,11 @@ body{
     font-family: "IBM Plex Sans", sans-serif;
 }
 
-
 .grid-item { width: 200px; }
 .grid-item--width2 { width: 400px; }
 
 
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 
 section.massonry-section{
   column-width: 300px;

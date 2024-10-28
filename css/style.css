@@ -28,7 +28,7 @@ section.massonry-section img{
  /*cursor: pointer;*/
 }
 
-.massonry-section .lightbox {
+.massonry-section .lightbox{
   position: fixed;
   width: 100%;
   height: 100%;
